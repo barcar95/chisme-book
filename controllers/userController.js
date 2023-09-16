@@ -68,7 +68,6 @@ module.exports = {
         }
     },
     // add a friend to user
-    // not sure about code
     async addFriend(req, res){
         try {
             const user  = await User.findOneAndUpdate(
@@ -83,10 +82,10 @@ module.exports = {
             res.json(user);
         } catch (error) {
             res.status(500).json(error);
+            console.log(error);
         }
     },
     // Remove friend from a user
-    // unsure about this code: id for friend
   async deleteFriend(req, res) {
     try {
       const user = await User.findOneAndUpdate(
