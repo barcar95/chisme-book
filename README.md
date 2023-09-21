@@ -34,7 +34,7 @@ npm start
 ## Usage
   The use of this back-end app is to test the created API, test Express http routes, use MongoDB database, and Mongoose ODM to add, update and delete data.
 
-​[walk through video link](https://drive.google.com/file/d/1oIeOuNPmXSlf064beI54qE3w79M7Gv4L/view)
+​[walk through video link](https://drive.google.com/file/d/1jnfA04y8KekyyXNKZbhNVigOtQNVNPSA/view)
 
   
 ## License
